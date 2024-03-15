@@ -3,7 +3,8 @@ import gradio as gr
 from langchain_community.llms import Ollama
 from langchain.document_loaders import PyPDFLoader
 from langchain.chains.summarize import load_summarize_chain
-llm = Ollama(model='llama2')
+#model = llama2
+llm = Ollama(model='medllama2')
 #loader = PyPDFLoader("book.pdf")
 
 #documents = loader.load()
